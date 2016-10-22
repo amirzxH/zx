@@ -74,7 +74,7 @@ if %ch%==4 goto PURPLE
 
 color 02
 
-set a= @Virus_32
+set a= amirzx
 
 goto GREEN
 
@@ -82,14 +82,14 @@ goto GREEN
 
 color 04
 
-set a= @Virus_32
+set a= amirzx
 goto RED
 
 :BLUE
 
 color 01
 
-set a= @Virus_32
+set a= amirzx
 
 
 
@@ -99,7 +99,7 @@ goto BLUE
 
 color 05
 
-set a= @Virus_32
+set a= amirzx
 
 
 
