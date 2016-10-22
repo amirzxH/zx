@@ -1,0 +1,106 @@
+@echo off
+
+:LOADING
+
+cls
+
+echo Processing.
+
+ping localhost -n 2 >nul
+
+cls
+
+echo Processing..
+
+ping localhost -n 2 >nul
+
+cls
+
+echo Processing...
+
+ping localhost -n 2 >nul
+
+cls
+
+echo Loading....
+
+ping localhost -n 2 >nul
+
+cls
+
+echo Starting.....
+
+ping localhost -n 2 >nul
+
+ping localhost -n 2 >nul
+
+cls
+
+color 0a
+
+echo adade 1 ra vared konid.
+
+echo 1) matrix rangi
+
+set/p c=
+
+if %c%==1 goto MATRIX
+
+:MATRIX
+
+cls
+
+echo che rangi ra dost darid?
+
+echo 1) sabz 
+
+echo 2) ghermez (long)
+
+echo 3) abi (sarvar)
+
+echo 4) soorati
+
+set/p ch=
+
+if %ch%==1 goto GREEN
+
+if %ch%==2 goto RED
+
+if %ch%==3 goto BLUE
+
+if %ch%==4 goto PURPLE
+
+:GREEN
+
+color 02
+
+set a= @Virus_32
+
+goto GREEN
+
+:RED
+
+color 04
+
+set a= @Virus_32
+goto RED
+
+:BLUE
+
+color 01
+
+set a= @Virus_32
+
+
+
+goto BLUE
+
+:PURPLE
+
+color 05
+
+set a= @Virus_32
+
+
+
+goto PURPLE
